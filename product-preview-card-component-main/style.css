@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:  hsl(30, 38%, 92%);
+    display: grid;
+    place-items: center;
+    font-family: 'montserrat', sans-serif;;
+}
+.card{
+    width: 610px;
+    display: flex;
+    border-radius: 10px;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 50%;
+    background:  hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.content h4{
+    letter-spacing: 2px;
+    font-weight: 500px;
+}
+.content h1{
+    font-family: 'Fraunces', sans-serif;
+    color:  hsl(212, 21%, 14%);
+}
+.content p{
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(228, 12%, 48%);
+}
+.ratebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.ratebox h1{
+    font-family:'Fraunces', sans-serif ;
+    color: hsl(158, 36%, 37%);
+}
+.oldrate{
+    color:  hsl(228, 12%, 48%);
+}
+.cartbox{
+    background: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+.cartbox .text{
+    color: hsl(0, 0%, 100%);
+}
+.cartbox:hover{
+    background: hsl(157, 37%, 22%);
+}
